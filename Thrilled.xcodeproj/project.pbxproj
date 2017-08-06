@@ -22,6 +22,7 @@
 		505D94511F36E6FF00075741 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 505D94501F36E6FF00075741 /* placeholder.png */; };
 		505D94531F36E8A600075741 /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = 505D94521F36E8A600075741 /* information.png */; };
 		505D94551F36E8EC00075741 /* creditcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 505D94541F36E8EC00075741 /* creditcard.png */; };
+		505D94571F378D9700075741 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94561F378D9700075741 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		505D94501F36E6FF00075741 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		505D94521F36E8A600075741 /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = information.png; sourceTree = "<group>"; };
 		505D94541F36E8EC00075741 /* creditcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creditcard.png; sourceTree = "<group>"; };
+		505D94561F378D9700075741 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DDC8880AD3344162366C1782 /* Pods-Thrilled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thrilled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thrilled/Pods-Thrilled.debug.xcconfig"; sourceTree = "<group>"; };
 		EA9D8C159321F14B4A237D2F /* libPods-Thrilled.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Thrilled.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				505D94481F36D9A400075741 /* ViewController.swift */,
+				505D94561F378D9700075741 /* SettingsViewController.swift */,
 			);
 			name = Controllers;
 			path = Thrilled;
@@ -390,6 +393,7 @@
 				505D94491F36D9A400075741 /* ViewController.swift in Sources */,
 				503E97F01EF439BB00D874C2 /* AppDelegate.swift in Sources */,
 				505D944D1F36DCAA00075741 /* SWRevealViewController.m in Sources */,
+				505D94571F378D9700075741 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

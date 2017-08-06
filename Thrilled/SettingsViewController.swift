@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SettingsViewController.swift
 //  Thrilled
 //
 //  Created by Deborah on 8/6/17.
@@ -8,20 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     @IBOutlet var menuButton: UIBarButtonItem!
     @IBOutlet var alertButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //Side Menu
 
+        // Side Menu
+        
         sideMenu()
     }
-    
-    //Side Menu Function
+
     
     func sideMenu() {
         
