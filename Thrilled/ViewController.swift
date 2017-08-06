@@ -16,10 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Custom Nav Bar
-        
-        customizeNavBar()
-        
         //Side Menu
 
         sideMenu()
@@ -44,14 +40,6 @@ class ViewController: UIViewController {
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             
         }
-        
-    }
-    
-    //Custom Navigation Bar Color
-    
-    func customizeNavBar() {
-        
-        navigationController?.navigationBar.tintColor = UIColor.black
         
     }
 

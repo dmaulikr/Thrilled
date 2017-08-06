@@ -15,10 +15,6 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //Nav Bar
-        
-        customizeNavBar()
 
         //Side Menu
         
@@ -43,14 +39,6 @@ class SettingsViewController: UIViewController {
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             
         }
-        
-    }
-    
-    //Custom Navigation Bar Color
-    
-    func customizeNavBar() {
-        
-        navigationController?.navigationBar.tintColor = UIColor.black
         
     }
 
