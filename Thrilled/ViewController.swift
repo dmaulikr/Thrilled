@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Thrilled
 //
-//  Created by Deborah on 6/16/17.
+//  Created by Deborah on 8/6/17.
 //  Copyright © 2017 Deborah. All rights reserved.
 //
 
@@ -10,16 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var menuButton: UIBarButtonItem!
+    @IBOutlet var alertButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        
+    }
+    
+    func sideMenu() {
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-}
-
+} // End Class

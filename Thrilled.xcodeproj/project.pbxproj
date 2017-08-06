@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		0E1D4ADFFBC87DEA1648C101 /* libPods-Thrilled.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9D8C159321F14B4A237D2F /* libPods-Thrilled.a */; };
 		503E97F01EF439BB00D874C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503E97EF1EF439BB00D874C2 /* AppDelegate.swift */; };
-		503E97F21EF439BB00D874C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503E97F11EF439BB00D874C2 /* ViewController.swift */; };
 		503E97F51EF439BC00D874C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503E97F31EF439BC00D874C2 /* Main.storyboard */; };
 		503E97F71EF439BC00D874C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503E97F61EF439BC00D874C2 /* Assets.xcassets */; };
 		503E97FA1EF439BC00D874C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503E97F81EF439BC00D874C2 /* LaunchScreen.storyboard */; };
 		503E98051EF439BC00D874C2 /* ThrilledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503E98041EF439BC00D874C2 /* ThrilledTests.swift */; };
 		503E98101EF439BC00D874C2 /* ThrilledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503E980F1EF439BC00D874C2 /* ThrilledUITests.swift */; };
+		505D943F1F36D4A100075741 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505D943D1F36D4A100075741 /* SWRevealViewController.m */; };
+		505D94451F36D86200075741 /* menubutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 505D94441F36D86200075741 /* menubutton.png */; };
+		505D94471F36D91700075741 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 505D94461F36D91700075741 /* bell.png */; };
+		505D94491F36D9A400075741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94481F36D9A400075741 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		25D6CE8051AE27F35E7500E3 /* Pods-Thrilled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thrilled.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thrilled/Pods-Thrilled.release.xcconfig"; sourceTree = "<group>"; };
 		503E97EC1EF439BB00D874C2 /* Thrilled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thrilled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503E97EF1EF439BB00D874C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		503E97F11EF439BB00D874C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		503E97F41EF439BC00D874C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		503E97F61EF439BC00D874C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503E97F91EF439BC00D874C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		503E980B1EF439BC00D874C2 /* ThrilledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThrilledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		503E980F1EF439BC00D874C2 /* ThrilledUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrilledUITests.swift; sourceTree = "<group>"; };
 		503E98111EF439BC00D874C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505D943D1F36D4A100075741 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../SWRevealViewController.m; sourceTree = "<group>"; };
+		505D943E1F36D4A100075741 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../SWRevealViewController.h; sourceTree = "<group>"; };
+		505D94401F36D4C200075741 /* SideMenuTutorial-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SideMenuTutorial-Bridging-Header.h"; path = "../SideMenuTutorial-Bridging-Header.h"; sourceTree = "<group>"; };
+		505D94441F36D86200075741 /* menubutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubutton.png; sourceTree = "<group>"; };
+		505D94461F36D91700075741 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		505D94481F36D9A400075741 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDC8880AD3344162366C1782 /* Pods-Thrilled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thrilled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thrilled/Pods-Thrilled.debug.xcconfig"; sourceTree = "<group>"; };
 		EA9D8C159321F14B4A237D2F /* libPods-Thrilled.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Thrilled.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				503E97EE1EF439BB00D874C2 /* Thrilled */,
+				505D94431F36D53E00075741 /* Assets */,
+				505D94421F36D51200075741 /* Controllers */,
+				505D94411F36D4CA00075741 /* Header Files */,
 				503E98031EF439BC00D874C2 /* ThrilledTests */,
 				503E980E1EF439BC00D874C2 /* ThrilledUITests */,
 				503E97ED1EF439BB00D874C2 /* Products */,
@@ -105,11 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				503E97EF1EF439BB00D874C2 /* AppDelegate.swift */,
-				503E97F11EF439BB00D874C2 /* ViewController.swift */,
-				503E97F31EF439BC00D874C2 /* Main.storyboard */,
-				503E97F61EF439BC00D874C2 /* Assets.xcassets */,
-				503E97F81EF439BC00D874C2 /* LaunchScreen.storyboard */,
-				503E97FB1EF439BC00D874C2 /* Info.plist */,
 			);
 			path = Thrilled;
 			sourceTree = "<group>";
@@ -130,6 +136,40 @@
 				503E98111EF439BC00D874C2 /* Info.plist */,
 			);
 			path = ThrilledUITests;
+			sourceTree = "<group>";
+		};
+		505D94411F36D4CA00075741 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				505D943D1F36D4A100075741 /* SWRevealViewController.m */,
+				505D943E1F36D4A100075741 /* SWRevealViewController.h */,
+				505D94401F36D4C200075741 /* SideMenuTutorial-Bridging-Header.h */,
+			);
+			name = "Header Files";
+			path = Thrilled;
+			sourceTree = "<group>";
+		};
+		505D94421F36D51200075741 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				505D94481F36D9A400075741 /* ViewController.swift */,
+			);
+			name = Controllers;
+			path = Thrilled;
+			sourceTree = "<group>";
+		};
+		505D94431F36D53E00075741 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				503E97F31EF439BC00D874C2 /* Main.storyboard */,
+				503E97F81EF439BC00D874C2 /* LaunchScreen.storyboard */,
+				503E97F61EF439BC00D874C2 /* Assets.xcassets */,
+				503E97FB1EF439BC00D874C2 /* Info.plist */,
+				505D94441F36D86200075741 /* menubutton.png */,
+				505D94461F36D91700075741 /* bell.png */,
+			);
+			name = Assets;
+			path = Thrilled;
 			sourceTree = "<group>";
 		};
 		51C8F523084F4CA7AD603449 /* Frameworks */ = {
@@ -262,8 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505D94471F36D91700075741 /* bell.png in Resources */,
 				503E97FA1EF439BC00D874C2 /* LaunchScreen.storyboard in Resources */,
 				503E97F71EF439BC00D874C2 /* Assets.xcassets in Resources */,
+				505D94451F36D86200075741 /* menubutton.png in Resources */,
 				503E97F51EF439BC00D874C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,8 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				503E97F21EF439BB00D874C2 /* ViewController.swift in Sources */,
+				505D94491F36D9A400075741 /* ViewController.swift in Sources */,
 				503E97F01EF439BB00D874C2 /* AppDelegate.swift in Sources */,
+				505D943F1F36D4A100075741 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +634,7 @@
 				503E98161EF439BC00D874C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		503E98171EF439BC00D874C2 /* Build configuration list for PBXNativeTarget "ThrilledTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +643,7 @@
 				503E98191EF439BC00D874C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		503E981A1EF439BC00D874C2 /* Build configuration list for PBXNativeTarget "ThrilledUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +652,7 @@
 				503E981C1EF439BC00D874C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
