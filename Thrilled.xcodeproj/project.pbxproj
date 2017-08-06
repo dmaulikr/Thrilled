@@ -24,6 +24,8 @@
 		505D94551F36E8EC00075741 /* creditcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 505D94541F36E8EC00075741 /* creditcard.png */; };
 		505D94571F378D9700075741 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94561F378D9700075741 /* SettingsViewController.swift */; };
 		505D94591F37964D00075741 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94581F37964D00075741 /* MenuTableViewController.swift */; };
+		505D945B1F37A44400075741 /* world of water.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505D945A1F37A44400075741 /* world of water.ttf */; };
+		505D945D1F37A4BF00075741 /* sofachrome rg it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		505D94541F36E8EC00075741 /* creditcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creditcard.png; sourceTree = "<group>"; };
 		505D94561F378D9700075741 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		505D94581F37964D00075741 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		505D945A1F37A44400075741 /* world of water.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "world of water.ttf"; sourceTree = "<group>"; };
+		505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sofachrome rg it.ttf"; sourceTree = "<group>"; };
 		DDC8880AD3344162366C1782 /* Pods-Thrilled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thrilled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thrilled/Pods-Thrilled.debug.xcconfig"; sourceTree = "<group>"; };
 		EA9D8C159321F14B4A237D2F /* libPods-Thrilled.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Thrilled.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -176,6 +180,8 @@
 				505D94501F36E6FF00075741 /* placeholder.png */,
 				505D94521F36E8A600075741 /* information.png */,
 				505D94541F36E8EC00075741 /* creditcard.png */,
+				505D945A1F37A44400075741 /* world of water.ttf */,
+				505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */,
 			);
 			name = Assets;
 			path = Thrilled;
@@ -312,11 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505D945B1F37A44400075741 /* world of water.ttf in Resources */,
 				505D94471F36D91700075741 /* bell.png in Resources */,
 				503E97FA1EF439BC00D874C2 /* LaunchScreen.storyboard in Resources */,
 				505D944F1F36E6BB00075741 /* settings.png in Resources */,
 				503E97F71EF439BC00D874C2 /* Assets.xcassets in Resources */,
 				505D94511F36E6FF00075741 /* placeholder.png in Resources */,
+				505D945D1F37A4BF00075741 /* sofachrome rg it.ttf in Resources */,
 				505D94551F36E8EC00075741 /* creditcard.png in Resources */,
 				505D94451F36D86200075741 /* menubutton.png in Resources */,
 				505D94531F36E8A600075741 /* information.png in Resources */,
