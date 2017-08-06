@@ -15,9 +15,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+        //Side Menu
+
+        sideMenu()
     }
+    
+    //Side Menu Function
     
     func sideMenu() {
         
