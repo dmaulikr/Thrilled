@@ -21,7 +21,19 @@ class ViewController: UIViewController {
     
     func sideMenu() {
         
-        
+        if revealViewController() != nil {
+            
+            menuButton.target = self
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
+            revealViewController().rearViewRevealWidth = 275
+            revealViewController().rightViewRevealWidth = 160
+            
+            alertButton.target = revealViewController()
+            alertButton.action = #selector(SWRevealViewController.rightRevealToggle(_:))
+            
+            
+            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
     }
 
 } // End Class
