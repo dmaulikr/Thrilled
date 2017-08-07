@@ -73,6 +73,9 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" red="0.1703086197" green="0.76855152849999997" blue="0.99117022749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="fAT-TB-PIN" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="vUM-GP-Dco"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="AsN-OQ-ml1">
                                         <rect key="frame" x="0.0" y="145" width="375" height="44"/>
@@ -422,4 +425,7 @@
         <image name="placeholder.png" width="24" height="24"/>
         <image name="settings.png" width="24" height="24"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="vUM-GP-Dco"/>
+    </inferredMetricsTieBreakers>
 </document>
