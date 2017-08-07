@@ -13,7 +13,7 @@ class MenuTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        tableView.backgroundColor = UIColor.black
     }
 
 } //End Class
