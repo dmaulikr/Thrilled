@@ -27,6 +27,7 @@
 		505D945B1F37A44400075741 /* world of water.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505D945A1F37A44400075741 /* world of water.ttf */; };
 		505D945D1F37A4BF00075741 /* sofachrome rg it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */; };
 		505D945F1F37A80600075741 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D945E1F37A80600075741 /* LoginViewController.swift */; };
+		505D94611F381F4A00075741 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94601F381F4A00075741 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		505D945A1F37A44400075741 /* world of water.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "world of water.ttf"; sourceTree = "<group>"; };
 		505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sofachrome rg it.ttf"; sourceTree = "<group>"; };
 		505D945E1F37A80600075741 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		505D94601F381F4A00075741 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		DDC8880AD3344162366C1782 /* Pods-Thrilled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thrilled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thrilled/Pods-Thrilled.debug.xcconfig"; sourceTree = "<group>"; };
 		EA9D8C159321F14B4A237D2F /* libPods-Thrilled.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Thrilled.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -161,10 +163,11 @@
 		505D94421F36D51200075741 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				505D945E1F37A80600075741 /* LoginViewController.swift */,
 				505D94481F36D9A400075741 /* ViewController.swift */,
 				505D94561F378D9700075741 /* SettingsViewController.swift */,
 				505D94581F37964D00075741 /* MenuTableViewController.swift */,
-				505D945E1F37A80600075741 /* LoginViewController.swift */,
+				505D94601F381F4A00075741 /* TermsViewController.swift */,
 			);
 			name = Controllers;
 			path = Thrilled;
@@ -410,6 +413,7 @@
 				505D94591F37964D00075741 /* MenuTableViewController.swift in Sources */,
 				505D944D1F36DCAA00075741 /* SWRevealViewController.m in Sources */,
 				505D94571F378D9700075741 /* SettingsViewController.swift in Sources */,
+				505D94611F381F4A00075741 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

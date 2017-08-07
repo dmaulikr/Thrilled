@@ -8,16 +8,12 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: UITableViewController {
 
     @IBOutlet var menuButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //Background Color
-        
-        self.view.backgroundColor = UIColor.darkGray
         
         //Customize Navigation Bar
         

@@ -1,20 +1,20 @@
 //
-//  ViewController.swift
+//  TermsViewController.swift
 //  Thrilled
 //
-//  Created by Deborah on 8/6/17.
+//  Created by Deborah on 8/7/17.
 //  Copyright © 2017 Deborah. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    @IBOutlet var menuButton: UIBarButtonItem!
+class TermsViewController: UIViewController {
     
+    @IBOutlet var menuButton: UIBarButtonItem!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         //Customize Navigation Bar
         
         self.navigationController?.navigationBar.barTintColor = UIColor.black
@@ -22,12 +22,11 @@ class ViewController: UIViewController {
         self.navigationController?.navigationBar.isTranslucent = false
         
         //Side Menu
-
+        
         sideMenu()
+        
     }
-    
-    //Side Menu Function
-    
+
     func sideMenu() {
         
         if revealViewController() != nil {
@@ -43,4 +42,4 @@ class ViewController: UIViewController {
         
     }
 
-} // End Class
+} //End Class
