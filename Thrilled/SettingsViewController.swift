@@ -11,16 +11,9 @@ import UIKit
 class SettingsViewController: UITableViewController {
 
     @IBOutlet var menuButton: UIBarButtonItem!
-    @IBOutlet var saveButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //Rounded Button
-        
-        saveButton.layer.cornerRadius = 5
-        saveButton.layer.borderWidth = 1
-        saveButton.layer.borderColor = UIColor.black.cgColor
         
         //Customize Navigation Bar
         

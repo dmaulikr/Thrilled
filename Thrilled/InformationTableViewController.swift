@@ -1,5 +1,5 @@
 //
-//  TermsViewController.swift
+//  InformationTableViewController.swift
 //  Thrilled
 //
 //  Created by Deborah on 8/7/17.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class TermsViewController: UIViewController {
-    
-    @IBOutlet var menuButton: UIBarButtonItem!
+class InformationTableViewController: UITableViewController {
 
+    @IBOutlet var menuButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         //Customize Navigation Bar
         
         self.navigationController?.navigationBar.barTintColor = UIColor.black
@@ -24,9 +24,9 @@ class TermsViewController: UIViewController {
         //Side Menu
         
         sideMenu()
-        
+     
     }
-
+    
     func sideMenu() {
         
         if revealViewController() != nil {
@@ -41,5 +41,7 @@ class TermsViewController: UIViewController {
         }
         
     }
+
+
 
 } //End Class
