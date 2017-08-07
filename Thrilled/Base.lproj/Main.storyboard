@@ -202,10 +202,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Information Table View Controller-->
         <scene sceneID="9qz-yz-xct">
             <objects>
-                <tableViewController id="Cph-ob-8Yp" sceneMemberID="viewController">
+                <tableViewController id="Cph-ob-8Yp" customClass="InformationTableViewController" customModule="Thrilled" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="A2q-hh-37o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -281,6 +281,9 @@
                             <color key="tintColor" red="0.1703086197" green="0.76855152849999997" blue="0.99117022749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="Acg-DG-cWA" id="bUr-Ty-Bdj"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vfN-St-Leb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -555,7 +558,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dIo-Vy-p0h" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4tY-Ow-m60">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="4tY-Ow-m60">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
