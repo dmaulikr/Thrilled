@@ -74,7 +74,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" red="0.1703086197" green="0.76855152849999997" blue="0.99117022749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <segue destination="LZL-Vd-Qb6" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="AfZ-3E-chf"/>
+                                            <segue destination="fAT-TB-PIN" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Zyl-G4-we0"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="AsN-OQ-ml1">
@@ -149,6 +149,9 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" red="0.1703086197" green="0.76855152849999997" blue="0.99117022749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="dIo-Vy-p0h" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="39l-Mp-RaE"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -313,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iv3-7m-777" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2552.8000000000002" y="122.78860569715144"/>
+            <point key="canvasLocation" x="1591" y="124"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="VC2-aO-twE">
@@ -551,7 +554,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="isk-7H-4DW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1783.2" y="122.78860569715144"/>
+            <point key="canvasLocation" x="855" y="124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZjI-q6-nBl">
@@ -580,6 +583,6 @@
         <image name="settings.png" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ECE-Ez-Oxx"/>
+        <segue reference="Zyl-G4-we0"/>
     </inferredMetricsTieBreakers>
 </document>
