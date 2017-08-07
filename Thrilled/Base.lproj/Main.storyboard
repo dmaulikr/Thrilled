@@ -74,7 +74,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" red="0.1703086197" green="0.76855152849999997" blue="0.99117022749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <segue destination="fAT-TB-PIN" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="vUM-GP-Dco"/>
+                                            <segue destination="LZL-Vd-Qb6" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="AfZ-3E-chf"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="AsN-OQ-ml1">
@@ -149,6 +149,9 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" red="0.1703086197" green="0.76855152849999997" blue="0.99117022749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="b3w-s5-qT7" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="zZv-tr-THJ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -314,7 +317,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iv3-7m-777" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1783.2" y="122.78860569715144"/>
+            <point key="canvasLocation" x="1615" y="123"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="VC2-aO-twE">
@@ -388,7 +391,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3us-fJ-bro">
-                                                    <rect key="frame" x="8" y="6" width="115" height="30"/>
+                                                    <rect key="frame" x="8" y="11" width="110" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" name="WorldofWater-Regular" family="World of Water" pointSize="17"/>
@@ -437,7 +440,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmj-Ew-Yw9">
-                                                    <rect key="frame" x="8" y="6" width="115" height="30"/>
+                                                    <rect key="frame" x="8" y="11" width="110" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="WorldofWater-Regular" family="World of Water" pointSize="17"/>
                                                     <state key="normal" title="Save Changes">
@@ -486,7 +489,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScN-u5-lvk">
-                                                    <rect key="frame" x="8" y="6" width="224" height="30"/>
+                                                    <rect key="frame" x="8" y="8" width="224" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="WorldofWater-Regular" family="World of Water" pointSize="17"/>
                                                     <state key="normal" title="Permanetly Delete Account">
@@ -581,6 +584,7 @@
         <image name="settings.png" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vUM-GP-Dco"/>
+        <segue reference="zZv-tr-THJ"/>
+        <segue reference="ECE-Ez-Oxx"/>
     </inferredMetricsTieBreakers>
 </document>
