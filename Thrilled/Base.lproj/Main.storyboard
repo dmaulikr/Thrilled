@@ -272,7 +272,7 @@
                             <tableViewSection headerTitle="Change Email &amp; Password" id="dMf-9v-YBy">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="TUq-o6-I7Q">
-                                        <rect key="frame" x="0.0" y="55" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TUq-o6-I7Q" id="wAf-Jq-tUy">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -297,7 +297,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="sOv-I8-5xt">
-                                        <rect key="frame" x="0.0" y="99" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="99.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sOv-I8-5xt" id="6n5-Wx-Ybh">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -322,7 +322,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Cgo-1V-6oS">
-                                        <rect key="frame" x="0.0" y="143" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="143.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cgo-1V-6oS" id="CYz-ET-oan">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -343,10 +343,10 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Phone Number" id="yJ5-cy-xlc">
+                            <tableViewSection headerTitle="Change Phone Number" id="yJ5-cy-xlc">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="XTf-vf-O5I">
-                                        <rect key="frame" x="0.0" y="243" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="243.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XTf-vf-O5I" id="cdX-27-L2P">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -371,7 +371,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ZDT-G0-SPH">
-                                        <rect key="frame" x="0.0" y="287" width="375" height="45"/>
+                                        <rect key="frame" x="0.0" y="287.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZDT-G0-SPH" id="JBg-sF-bZp">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -394,7 +394,7 @@
                             <tableViewSection id="mkQ-Dq-4LU">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="z2r-Dk-wIy">
-                                        <rect key="frame" x="0.0" y="368" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="367.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z2r-Dk-wIy" id="pFa-fk-jwt">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -407,7 +407,7 @@
                             <tableViewSection id="aX7-qV-Cge">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wM8-n7-tfX">
-                                        <rect key="frame" x="0.0" y="448" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="447.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wM8-n7-tfX" id="ipD-ej-bgO">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -420,7 +420,7 @@
                             <tableViewSection headerTitle="Delete Account" id="M0k-ld-gsm">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="6VR-uH-jxF">
-                                        <rect key="frame" x="0.0" y="548" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="547.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6VR-uH-jxF" id="fHz-R0-QhM">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
