@@ -177,7 +177,7 @@
                     <view key="view" contentMode="scaleToFill" id="wXQ-k0-jj2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="eAa-tw-G0k">
                         <barButtonItem key="leftBarButtonItem" image="menubutton.png" id="01h-zU-nuA">
@@ -242,6 +242,7 @@
                     <view key="view" contentMode="scaleToFill" id="gwQ-Fb-hvO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="uJb-hn-y0Y">
                         <barButtonItem key="leftBarButtonItem" image="menubutton.png" id="8VP-Vf-YLM">
@@ -254,7 +255,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7EJ-IA-I1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1562" y="124"/>
+            <point key="canvasLocation" x="1762" y="124"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="VC2-aO-twE">
@@ -264,6 +265,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection headerTitle="Change Email &amp; Password" id="dMf-9v-YBy">
                                 <cells>
@@ -349,6 +351,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="rkY-u4-z5z" id="Vfw-JG-EST"/>
+                        <outlet property="saveButton" destination="3us-fJ-bro" id="0jb-FG-AGw"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dC8-FV-RO5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -418,6 +421,6 @@
         <image name="settings.png" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Gom-WA-UEz"/>
+        <segue reference="xZV-y7-mpW"/>
     </inferredMetricsTieBreakers>
 </document>
