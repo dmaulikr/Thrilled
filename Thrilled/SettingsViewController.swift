@@ -11,10 +11,19 @@ import UIKit
 class SettingsViewController: UIViewController {
 
     @IBOutlet var menuButton: UIBarButtonItem!
-    @IBOutlet var alertButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Background Color
+        
+        self.view.backgroundColor = UIColor.darkGray
+        
+        //Customize Navigation Bar
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.black
+        self.navigationController?.navigationBar.tintColor = UIColor.black
+        self.navigationController?.navigationBar.isTranslucent = false
 
         //Side Menu
         
@@ -30,11 +39,6 @@ class SettingsViewController: UIViewController {
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             revealViewController().rearViewRevealWidth = 275
             revealViewController().rightViewRevealWidth = 160
-            
-            
-            alertButton.target = revealViewController()
-            alertButton.action = #selector(SWRevealViewController.rightRevealToggle(_:))
-            
             
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             
