@@ -6,6 +6,6 @@ target 'Thrilled' do
    pod 'Firebase'
    pod 'Firebase/Database'
    pod 'Firebase/Auth'
-   
+   pod 'SVProgressHUD'
 
 end
