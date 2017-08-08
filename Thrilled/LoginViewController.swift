@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
 import SVProgressHUD
 
 class LoginViewController: UIViewController {
@@ -60,7 +61,21 @@ class LoginViewController: UIViewController {
             
         } else {
             
+            //Sign in
             
+            SVProgressHUD.setStatus("Signing In...")
+            
+            Auth.auth().signIn(withEmail: self.emailField.text!, password: self.passwordField.text!, completion: { (user, error) in
+                if error == nil {
+                    
+                    SVProgressHUD.dismiss()
+                    
+                    //Go To Controller
+                    
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeView")
+                    self.present(vc!, animated: true, completion: nil)
+                }
+            })
         }
     }
    
