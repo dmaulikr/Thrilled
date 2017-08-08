@@ -19,6 +19,11 @@ class LoginViewController: UIViewController {
     @IBOutlet var registerButton: UIButton!
     @IBOutlet var termsofserviceButton: UIButton!
     
+    @IBAction func signinAction(_ sender: Any) {
+        
+        login()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,25 +42,13 @@ class LoginViewController: UIViewController {
         
         passwordField.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSForegroundColorAttributeName : UIColor.black])
         
-        //Border Color Buttons
-        
-        signinButton.layer.cornerRadius = 2
-        signinButton.layer.borderWidth = 1
-        signinButton.layer.borderColor = (UIColor(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0) as! CGColor)
-        
-        registerButton.layer.cornerRadius = 5
-        registerButton.layer.borderWidth = 1
-        registerButton.layer.borderColor = (UIColor(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0) as! CGColor)
-        
-        termsofserviceButton.layer.cornerRadius = 5
-        termsofserviceButton.layer.borderWidth = 1
-        termsofserviceButton.layer.borderColor = (UIColor(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0) as! CGColor)
-        
     }
     
     func login() {
         
         if self.emailField.text == "" || self.passwordField.text == "" {
+            
+            //Show Error
             
             SVProgressHUD.showError(withStatus: "Please Enter Your Info!")
             
