@@ -35,22 +35,11 @@ PODS:
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
   - GTMSessionFetcher/Core (1.1.10)
-  - SVProgressHUD (2.1.2)
 
 DEPENDENCIES:
   - Firebase
   - Firebase/Auth
   - Firebase/Database
-  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
-
-EXTERNAL SOURCES:
-  SVProgressHUD:
-    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
-
-CHECKOUT OPTIONS:
-  SVProgressHUD:
-    :commit: 7e3139d2d56b336e48c178cc4605966191f4ac24
-    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
 
 SPEC CHECKSUMS:
   Firebase: 284eea779b73fdff309791817da7c68bff8dd572
@@ -61,8 +50,7 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
-  SVProgressHUD: d65371a8e4482380deddb9fe60e14e59ddb30eb3
 
-PODFILE CHECKSUM: c9f85335c7ffb71168f71fae11a3ab4c6e73d45f
+PODFILE CHECKSUM: 8a659bd751c39260431d529da2213129044882db
 
 COCOAPODS: 1.2.1

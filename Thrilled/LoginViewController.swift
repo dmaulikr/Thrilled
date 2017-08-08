@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
@@ -56,7 +55,7 @@ class LoginViewController: UIViewController {
         
         if self.emailField.text == "" || self.passwordField.text == "" {
             
-            SVProgre
+            
         }
     }
    
