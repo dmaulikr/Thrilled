@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 target 'Thrilled' do
+use_frameworks!
   
    pod 'Firebase'
    pod 'Firebase/Database'
