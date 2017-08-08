@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
@@ -54,6 +55,10 @@ class LoginViewController: UIViewController {
     func login() {
         
         if self.emailField.text == "" || self.passwordField.text == "" {
+            
+            SVProgressHUD.showError(withStatus: "Please Enter Your Info!")
+            
+        } else {
             
             
         }

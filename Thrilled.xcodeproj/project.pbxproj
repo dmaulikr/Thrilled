@@ -27,6 +27,7 @@
 		505D945D1F37A4BF00075741 /* sofachrome rg it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */; };
 		505D945F1F37A80600075741 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D945E1F37A80600075741 /* LoginViewController.swift */; };
 		505D94651F38FFFF00075741 /* InformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94641F38FFFF00075741 /* InformationTableViewController.swift */; };
+		5074CE631F3A55E00046FB36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5074CE621F3A55E00046FB36 /* GoogleService-Info.plist */; };
 		BFC6FAAFE6CDD20A3767AEF6 /* Pods_Thrilled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5263CF9B0C28A2540E696A5C /* Pods_Thrilled.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sofachrome rg it.ttf"; sourceTree = "<group>"; };
 		505D945E1F37A80600075741 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		505D94641F38FFFF00075741 /* InformationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationTableViewController.swift; sourceTree = "<group>"; };
+		5074CE621F3A55E00046FB36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5263CF9B0C28A2540E696A5C /* Pods_Thrilled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thrilled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC8880AD3344162366C1782 /* Pods-Thrilled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thrilled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thrilled/Pods-Thrilled.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,6 +182,7 @@
 				503E97F81EF439BC00D874C2 /* LaunchScreen.storyboard */,
 				503E97F61EF439BC00D874C2 /* Assets.xcassets */,
 				503E97FB1EF439BC00D874C2 /* Info.plist */,
+				5074CE621F3A55E00046FB36 /* GoogleService-Info.plist */,
 				505D94441F36D86200075741 /* menubutton.png */,
 				505D94461F36D91700075741 /* bell.png */,
 				505D944E1F36E6BB00075741 /* settings.png */,
@@ -329,6 +332,7 @@
 				503E97FA1EF439BC00D874C2 /* LaunchScreen.storyboard in Resources */,
 				505D944F1F36E6BB00075741 /* settings.png in Resources */,
 				503E97F71EF439BC00D874C2 /* Assets.xcassets in Resources */,
+				5074CE631F3A55E00046FB36 /* GoogleService-Info.plist in Resources */,
 				505D94511F36E6FF00075741 /* placeholder.png in Resources */,
 				505D945D1F37A4BF00075741 /* sofachrome rg it.ttf in Resources */,
 				505D94551F36E8EC00075741 /* creditcard.png in Resources */,
