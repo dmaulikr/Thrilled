@@ -7,29 +7,57 @@
 //
 
 import UIKit
+import Firebase
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet var emailField: UITextField!
+    @IBOutlet var passwordField: UITextField!
+    @IBOutlet var signinButton: UIButton!
+    @IBOutlet var registerButton: UIButton!
+    @IBOutlet var termsofserviceButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        //Border Colors For Text Fields
+        
+        let myColor = UIColor.black
+        emailField.layer.borderColor = myColor.cgColor
+        passwordField.layer.borderColor = myColor.cgColor
+        
+        emailField.layer.borderWidth = 1.0
+        passwordField.layer.borderWidth = 1.0
+        
+        //Placeholder Color
+        
+        emailField.attributedPlaceholder = NSAttributedString(string: "Email", attributes: [NSForegroundColorAttributeName : UIColor.black])
+        
+        passwordField.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSForegroundColorAttributeName : UIColor.black])
+        
+        //Border Color Buttons
+        
+        signinButton.layer.cornerRadius = 2
+        signinButton.layer.borderWidth = 1
+        signinButton.layer.borderColor = (UIColor(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0) as! CGColor)
+        
+        registerButton.layer.cornerRadius = 5
+        registerButton.layer.borderWidth = 1
+        registerButton.layer.borderColor = (UIColor(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0) as! CGColor)
+        
+        termsofserviceButton.layer.cornerRadius = 5
+        termsofserviceButton.layer.borderWidth = 1
+        termsofserviceButton.layer.borderColor = (UIColor(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0) as! CGColor)
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func login() {
+        
+        if self.emailField.text == "" || self.passwordField.text == "" {
+            
+            SVProgre
+        }
     }
-    */
-
-}
+   
+} // End Class

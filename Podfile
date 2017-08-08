@@ -6,6 +6,6 @@ target 'Thrilled' do
    pod 'Firebase'
    pod 'Firebase/Database'
    pod 'Firebase/Auth'
-   pod 'SVProgressHUD'
+   pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
 
 end
