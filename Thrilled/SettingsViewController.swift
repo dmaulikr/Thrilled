@@ -8,12 +8,27 @@
 
 import UIKit
 
-class SettingsViewController: UITableViewController {
+class SettingsViewController: UITableViewController, UITextFieldDelegate {
 
     @IBOutlet var menuButton: UIBarButtonItem!
+    @IBOutlet var emailField: UITextField!
+    @IBOutlet var passwordField: UITextField!
+    @IBOutlet var phoneField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Close Keyboard With Return Key
+        
+        self.emailField.delegate = self
+        self.passwordField.delegate = self
+        self.phoneField.delegate = self
+        
+        //Close Keyboard With Tap
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SettingsViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
         
         //Customize Navigation Bar
         
@@ -39,6 +54,15 @@ class SettingsViewController: UITableViewController {
             
         }
         
+    }
+    
+    //Close Keyboard With Tap
+    
+    func dismissKeyboard() {
+        
+        //Close On Tap
+        
+        view.endEditing(true)
     }
 
 } // End Class
