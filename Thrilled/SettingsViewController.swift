@@ -13,8 +13,6 @@ import FirebaseDatabase
 import SVProgressHUD
 
 class SettingsViewController: UITableViewController, UITextFieldDelegate {
-    
-    var refUsers: DatabaseReference!
 
     @IBOutlet var menuButton: UIBarButtonItem!
     @IBOutlet var emailField: UITextField!
