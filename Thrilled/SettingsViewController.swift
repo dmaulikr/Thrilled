@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 import FirebaseDatabase
 import SVProgressHUD
 
@@ -18,6 +20,19 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
     @IBOutlet var emailField: UITextField!
     @IBOutlet var passwordField: UITextField!
     @IBOutlet var phoneField: UITextField!
+    
+    @IBAction func changeEmail(_ sender: Any) {
+        
+        updateEmail()
+    }
+    @IBAction func changePassword(_ sender: Any) {
+        
+        updatePassword()
+    }
+    @IBAction func deleteAccount(_ sender: Any) {
+        
+        deleteAccount()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,6 +91,73 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         } else {
             
         }
+    }
+    
+    func updateEmail() {
+        
+        SVProgressHUD.show(withStatus: "Updating Email...")
+        
+        if let user = Auth.auth().currentUser {
+            
+            user.updateEmail(to: emailField.text!, completion: { (error) in
+                
+                if let error = error {
+                    print(error.localizedDescription)
+                    
+                    SVProgressHUD.dismiss()
+                    
+                } else {
+                    
+                    SVProgressHUD.dismiss()
+                }
+            })
+        }
+    }
+    
+    func updatePassword() {
+        
+        
+        SVProgressHUD.show(withStatus: "Updating Password...")
+        
+        if let user = Auth.auth().currentUser {
+            
+            user.updatePassword(to: passwordField.text!, completion: { (error) in
+                
+                if let error = error {
+                    print(error.localizedDescription)
+                    
+                    SVProgressHUD.dismiss()
+                    
+                    SVProgressHUD.showError(withStatus: "Network Error! Update Failed!")
+                    
+                } else {
+                    
+                    SVProgressHUD.dismiss()
+                }
+            })
+        }
+    }
+    
+    func deleteAccount() {
+        
+        SVProgressHUD.show(withStatus: "Deleting Account...")
+        
+        let user = Auth.auth().currentUser
+        user?.delete(completion: { (error) in
+            if let error = error {
+                
+                print(error.localizedDescription)
+                
+                SVProgressHUD.dismiss()
+                
+                SVProgressHUD.showError(withStatus: "Failed To Delete Account!")
+                
+            } else {
+                
+                SVProgressHUD.dismiss()
+                
+            }
+        })
     }
     
     //Close Keyboard With Tap
