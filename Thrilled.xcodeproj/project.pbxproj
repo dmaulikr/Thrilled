@@ -168,11 +168,11 @@
 			isa = PBXGroup;
 			children = (
 				505D945E1F37A80600075741 /* LoginViewController.swift */,
+				5074CE641F3A59AA0046FB36 /* RegisterViewController.swift */,
 				505D94481F36D9A400075741 /* ViewController.swift */,
 				505D94561F378D9700075741 /* SettingsViewController.swift */,
 				505D94581F37964D00075741 /* MenuTableViewController.swift */,
 				505D94641F38FFFF00075741 /* InformationTableViewController.swift */,
-				5074CE641F3A59AA0046FB36 /* RegisterViewController.swift */,
 			);
 			name = Controllers;
 			path = Thrilled;

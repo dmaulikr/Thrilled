@@ -25,7 +25,6 @@ class SettingsViewController: UITableViewController {
         
         sideMenu()
     }
-
     
     func sideMenu() {
         
