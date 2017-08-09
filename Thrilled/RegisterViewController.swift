@@ -20,12 +20,24 @@ class RegisterViewController: UIViewController {
         
         register()
     }
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        //Border Colors For Text Fields
+        
+        let myColor = UIColor.black
+        emailField.layer.borderColor = myColor.cgColor
+        passwordField.layer.borderColor = myColor.cgColor
+        
+        emailField.layer.borderWidth = 1.0
+        passwordField.layer.borderWidth = 1.0
+        
+        //Placeholder Color
+        
+        emailField.attributedPlaceholder = NSAttributedString(string: "Email", attributes: [NSForegroundColorAttributeName : UIColor.black])
+        
+        passwordField.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSForegroundColorAttributeName : UIColor.black])
     }
     
     func register() {
