@@ -510,19 +510,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtw-4B-Fgl">
-                                                    <rect key="frame" x="237" y="8" width="130" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="WorldofWater-Regular" family="World of Water" pointSize="17"/>
-                                                    <state key="normal" title="Save Password">
-                                                        <color key="titleColor" red="0.16862745100000001" green="0.76862745099999996" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="changePassword:" destination="vLM-HY-3u6" eventType="touchUpInside" id="97X-Le-Fnp"/>
-                                                    </connections>
-                                                </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3us-fJ-bro">
-                                                    <rect key="frame" x="8" y="11" width="110" height="21"/>
+                                                    <rect key="frame" x="8" y="11" width="88" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" name="WorldofWater-Regular" family="World of Water" pointSize="17"/>
@@ -531,6 +520,17 @@
                                                     </state>
                                                     <connections>
                                                         <action selector="changeEmail:" destination="vLM-HY-3u6" eventType="touchUpInside" id="oB6-eb-Sr9"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtw-4B-Fgl">
+                                                    <rect key="frame" x="237" y="11" width="130" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="WorldofWater-Regular" family="World of Water" pointSize="17"/>
+                                                    <state key="normal" title="Save Password">
+                                                        <color key="titleColor" red="0.16862745100000001" green="0.76862745099999996" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="changePassword:" destination="vLM-HY-3u6" eventType="touchUpInside" id="97X-Le-Fnp"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -616,6 +616,9 @@
                                                     <state key="normal" title="Sign Out">
                                                         <color key="titleColor" red="0.16862745100000001" green="0.76862745099999996" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="signOut:" destination="vLM-HY-3u6" eventType="touchUpInside" id="syn-eR-PhW"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>

@@ -33,6 +33,10 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         
         deleteAccount()
     }
+    @IBAction func signOut(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +57,17 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         
         view.addGestureRecognizer(tap)
         
+        //Border Colors For Text Fields
+        
+        let myColor = UIColor.init(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0)
+        emailField.layer.borderColor = myColor.cgColor
+        passwordField.layer.borderColor = myColor.cgColor
+        phoneField.layer.borderColor = myColor.cgColor
+        
+        emailField.layer.borderWidth = 2.0
+        passwordField.layer.borderWidth = 2.0
+        phoneField.layer.borderWidth = 2.0
+        
         //Customize Navigation Bar
         
         self.navigationController?.navigationBar.barTintColor = UIColor.black
@@ -62,6 +77,13 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         //Side Menu
         
         sideMenu()
+    }
+    
+    func dismissKeyboard() {
+        
+        //Close Keyboard On Tap
+        
+        view.endEditing(true)
     }
     
     func sideMenu() {
@@ -80,7 +102,7 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
     
     func addUserData() {
         
-        //Add User Data
+        //Add User Data To Firebase
         
         if let key = refUsers.childByAutoId().key {
             SVProgressHUD.showSuccess(withStatus: "Saved!")
@@ -155,18 +177,8 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
             } else {
                 
                 SVProgressHUD.dismiss()
-                
             }
         })
-    }
-    
-    //Close Keyboard With Tap
-    
-    func dismissKeyboard() {
-        
-        //Close On Tap
-        
-        view.endEditing(true)
     }
 
 } // End Class
