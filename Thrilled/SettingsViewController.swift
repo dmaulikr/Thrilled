@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import FirebaseDatabase
+import SVProgressHUD
 
 class SettingsViewController: UITableViewController, UITextFieldDelegate {
+    
+    var refUsers: DatabaseReference!
 
     @IBOutlet var menuButton: UIBarButtonItem!
     @IBOutlet var emailField: UITextField!
@@ -17,6 +21,10 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Firebase
+        
+        refUsers = Database.database().reference().child("Settings")
         
         //Close Keyboard With Return Key
         
@@ -51,9 +59,23 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
             revealViewController().rightViewRevealWidth = 160
             
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-            
         }
         
+    }
+    
+    func addUserData() {
+        
+        //Add User Data
+        
+        if let key = refUsers.childByAutoId().key {
+            SVProgressHUD.showSuccess(withStatus: "Saved!")
+            
+             let user = ["id": key, "Email": emailField.text! as String, "Password": passwordField.text! as String, "Phone Number": phoneField.text! as String]
+            
+            refUsers.child(key).setValue(user)
+        } else {
+            
+        }
     }
     
     //Close Keyboard With Tap
