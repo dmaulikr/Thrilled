@@ -104,14 +104,17 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         
         //Add User Data To Firebase
         
-        if let key = refUsers.childByAutoId().key {
-            SVProgressHUD.showSuccess(withStatus: "Saved!")
+        if let key = refUsers?.childByAutoId().key {
             
-             let user = ["id": key, "Email": emailField.text! as String, "Password": passwordField.text! as String, "Phone Number": phoneField.text! as String]
+            SVProgressHUD.showSuccess(withStatus: "Success!")
+            
+            let user = ["id": key, "Email": emailField.text! as String, "Password": passwordField.text! as String, "Phone Number": phoneField.text! as String]
             
             refUsers.child(key).setValue(user)
+            
         } else {
             
+            SVProgressHUD.showError(withStatus: "Failed To Update!")
         }
     }
     
@@ -127,6 +130,7 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
                     print(error.localizedDescription)
                     
                     SVProgressHUD.dismiss()
+                    SVProgressHUD.showError(withStatus: "Email Update Failed!")
                     
                 } else {
                     
@@ -149,8 +153,7 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
                     print(error.localizedDescription)
                     
                     SVProgressHUD.dismiss()
-                    
-                    SVProgressHUD.showError(withStatus: "Network Error! Update Failed!")
+                    SVProgressHUD.showError(withStatus: "Password Update Failed!")
                     
                 } else {
                     
