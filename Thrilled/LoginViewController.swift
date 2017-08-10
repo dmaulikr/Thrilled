@@ -29,12 +29,9 @@ class LoginViewController: UIViewController {
 
         //Border Colors For Text Fields
         
-        let myColor = UIColor.black
+        let myColor = UIColor(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0)
         emailField.layer.borderColor = myColor.cgColor
         passwordField.layer.borderColor = myColor.cgColor
-        
-        emailField.layer.borderWidth = 1.0
-        passwordField.layer.borderWidth = 1.0
         
         //Placeholder Color
         
