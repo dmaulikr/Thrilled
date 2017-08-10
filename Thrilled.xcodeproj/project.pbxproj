@@ -23,12 +23,14 @@
 		505D94551F36E8EC00075741 /* creditcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 505D94541F36E8EC00075741 /* creditcard.png */; };
 		505D94571F378D9700075741 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94561F378D9700075741 /* SettingsViewController.swift */; };
 		505D94591F37964D00075741 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94581F37964D00075741 /* MenuTableViewController.swift */; };
-		505D945B1F37A44400075741 /* world of water.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505D945A1F37A44400075741 /* world of water.ttf */; };
 		505D945D1F37A4BF00075741 /* sofachrome rg it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */; };
 		505D945F1F37A80600075741 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D945E1F37A80600075741 /* LoginViewController.swift */; };
 		505D94651F38FFFF00075741 /* InformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D94641F38FFFF00075741 /* InformationTableViewController.swift */; };
 		5074CE631F3A55E00046FB36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5074CE621F3A55E00046FB36 /* GoogleService-Info.plist */; };
 		5074CE651F3A59AA0046FB36 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5074CE641F3A59AA0046FB36 /* RegisterViewController.swift */; };
+		5074CE691F3C05660046FB36 /* Insanibu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5074CE681F3C05660046FB36 /* Insanibu.ttf */; };
+		5074CE6B1F3C05840046FB36 /* Insanibc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5074CE6A1F3C05840046FB36 /* Insanibc.ttf */; };
+		5074CE6D1F3CBF980046FB36 /* helsinki.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5074CE6C1F3CBF980046FB36 /* helsinki.ttf */; };
 		BFC6FAAFE6CDD20A3767AEF6 /* Pods_Thrilled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5263CF9B0C28A2540E696A5C /* Pods_Thrilled.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,12 +77,14 @@
 		505D94541F36E8EC00075741 /* creditcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creditcard.png; sourceTree = "<group>"; };
 		505D94561F378D9700075741 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		505D94581F37964D00075741 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
-		505D945A1F37A44400075741 /* world of water.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "world of water.ttf"; sourceTree = "<group>"; };
 		505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sofachrome rg it.ttf"; sourceTree = "<group>"; };
 		505D945E1F37A80600075741 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		505D94641F38FFFF00075741 /* InformationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationTableViewController.swift; sourceTree = "<group>"; };
 		5074CE621F3A55E00046FB36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5074CE641F3A59AA0046FB36 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5074CE681F3C05660046FB36 /* Insanibu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Insanibu.ttf; sourceTree = "<group>"; };
+		5074CE6A1F3C05840046FB36 /* Insanibc.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Insanibc.ttf; sourceTree = "<group>"; };
+		5074CE6C1F3CBF980046FB36 /* helsinki.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = helsinki.ttf; sourceTree = "<group>"; };
 		5263CF9B0C28A2540E696A5C /* Pods_Thrilled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thrilled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC8880AD3344162366C1782 /* Pods-Thrilled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thrilled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thrilled/Pods-Thrilled.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,7 +196,9 @@
 				505D94501F36E6FF00075741 /* placeholder.png */,
 				505D94521F36E8A600075741 /* information.png */,
 				505D94541F36E8EC00075741 /* creditcard.png */,
-				505D945A1F37A44400075741 /* world of water.ttf */,
+				5074CE6A1F3C05840046FB36 /* Insanibc.ttf */,
+				5074CE6C1F3CBF980046FB36 /* helsinki.ttf */,
+				5074CE681F3C05660046FB36 /* Insanibu.ttf */,
 				505D945C1F37A4BF00075741 /* sofachrome rg it.ttf */,
 			);
 			name = Assets;
@@ -330,9 +336,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505D945B1F37A44400075741 /* world of water.ttf in Resources */,
 				505D94471F36D91700075741 /* bell.png in Resources */,
 				503E97FA1EF439BC00D874C2 /* LaunchScreen.storyboard in Resources */,
+				5074CE6B1F3C05840046FB36 /* Insanibc.ttf in Resources */,
+				5074CE691F3C05660046FB36 /* Insanibu.ttf in Resources */,
 				505D944F1F36E6BB00075741 /* settings.png in Resources */,
 				503E97F71EF439BC00D874C2 /* Assets.xcassets in Resources */,
 				5074CE631F3A55E00046FB36 /* GoogleService-Info.plist in Resources */,
@@ -342,6 +349,7 @@
 				505D94451F36D86200075741 /* menubutton.png in Resources */,
 				505D94531F36E8A600075741 /* information.png in Resources */,
 				503E97F51EF439BC00D874C2 /* Main.storyboard in Resources */,
+				5074CE6D1F3CBF980046FB36 /* helsinki.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,14 +27,40 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //Border Colors For Text Fields
+        //Border Colors For Buttons & Text Fields
         
         let myColor = UIColor(red: 0.17, green: 0.77, blue: 0.99, alpha: 1.0)
-        emailField.layer.borderColor = myColor.cgColor
-        passwordField.layer.borderColor = myColor.cgColor
         
-        emailField.layer.borderWidth = 2.0
-        passwordField.layer.borderWidth = 2.0
+        let border = CALayer()
+        let width = CGFloat(2.0)
+        border.borderColor = myColor.cgColor
+        border.frame = CGRect(x: 0, y: emailField.frame.size.height - width, width:  emailField.frame.size.width, height: emailField.frame.size.height)
+        
+        border.borderWidth = width
+        emailField.layer.addSublayer(border)
+        emailField.layer.masksToBounds = true
+        
+        border.borderColor = myColor.cgColor
+        border.frame = CGRect(x: 0, y: passwordField.frame.size.height - width, width:  passwordField.frame.size.width, height: passwordField.frame.size.height)
+        
+        border.borderWidth = width
+        passwordField.layer.addSublayer(border)
+        passwordField.layer.masksToBounds = true
+        
+        signinButton.layer.cornerRadius = 10
+        signinButton.layer.borderWidth = 1
+        signinButton.layer.borderColor = myColor.cgColor
+        signinButton.layer.borderWidth = 2.0
+        
+        registerButton.layer.cornerRadius = 10
+        registerButton.layer.borderWidth = 1
+        registerButton.layer.borderColor = myColor.cgColor
+        registerButton.layer.borderWidth = 2.0
+        
+        termsofserviceButton.layer.cornerRadius = 10
+        termsofserviceButton.layer.borderWidth = 1
+        termsofserviceButton.layer.borderColor = myColor.cgColor
+        termsofserviceButton.layer.borderWidth = 2.0
         
     }
     
