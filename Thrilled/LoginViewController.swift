@@ -33,6 +33,9 @@ class LoginViewController: UIViewController {
         emailField.layer.borderColor = myColor.cgColor
         passwordField.layer.borderColor = myColor.cgColor
         
+        emailField.layer.borderWidth = 2.0
+        passwordField.layer.borderWidth = 2.0
+        
     }
     
     func login() {
