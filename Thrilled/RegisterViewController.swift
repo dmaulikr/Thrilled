@@ -30,11 +30,6 @@ class RegisterViewController: UIViewController {
         emailField.layer.borderColor = myColor.cgColor
         passwordField.layer.borderColor = myColor.cgColor
         
-        //Placeholder Color
-        
-        emailField.attributedPlaceholder = NSAttributedString(string: "Email", attributes: [NSForegroundColorAttributeName : UIColor.black])
-        
-        passwordField.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSForegroundColorAttributeName : UIColor.black])
     }
     
     func register() {
